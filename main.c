@@ -5,7 +5,7 @@
 int main(){
     FILE* file = fopen("JEEP.txt", "r");
     char* input = malloc(256);
-    printf("ENTER A DESTINATION:");
+    printf("ENTER A DESTINATION: ");
     fgets(input, 256, stdin);
     if ((strlen(input) > 0) && (input[strlen (input) - 1] == '\n'))
         input[strlen (input) - 1] = '\0';
