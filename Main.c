@@ -2,5 +2,6 @@
 
 int main(){
     //NAGEDIT KO DIRI
+    //kent dave
 	return 0;
 }
