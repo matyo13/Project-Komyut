@@ -3,14 +3,31 @@
 <head>
     <title>PROJECT KOMYUT</title>
     <link rel="stylesheet" href="css/stylesheet.css">
-    <script type="javascript" src="js/script.js"></script>
+    <script type="text/javascript" src="js/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
     <meta charset="UTF-8">
 </head>
 <body>
-    <h1>Project Komyut</h1>
-<?php
-echo "My first PHP script!";
-?>
+<form id="getDistance">
+    <label for="location">Choose a location:</label>
 
+    <select name="places" id="location">
+        <option value="urgello">Urgello</option>
+        <option value="sm">SM</option>
+        <option value="parkmall">Parkmall</option>
+        <option value="Southbus">Southbust</option>
+    </select>
+
+    <label for="destination">Choose a destination:</label>
+    <select name="places" id="destination">
+        <option value="urgello">Urgello</option>
+        <option value="sm">SM</option>
+        <option value="parkmall">Parkmall</option>
+        <option value="Southbus">Southbust</option>
+    </select>
+
+    <input type="submit" name="SUBMIT" id="submit">
+</form>
+<p id="destination_container">Destination here</p>
 </body>
 </html>
