@@ -1,5 +1,5 @@
 //Implement linked list
-class createNode{
+class Node{
     constructor(val){
         this.val = val;
         this.next = null; 
@@ -14,9 +14,9 @@ class linkedList{
     }
 }
 
-insert(val) {
+function insertNode(val) {
     this.length++;
-    let node = createNode(val);
+    let node = new Node(val);
 
     if(this.tail){
         this.tail.next = node;
@@ -28,7 +28,7 @@ insert(val) {
     return node;
 }
 
-delete() {
+function deleteNode() {
     if(this.tail){
         this.length--;
 
