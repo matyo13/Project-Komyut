@@ -2,24 +2,38 @@ $(document).ready(function () {
     $("#getDistance").submit(function (e) {
         e.preventDefault();
         document.getElementById("destination_container").append(document.getElementById("destination").value);
-    })
+    });
 
-    var rawFile = new XMLHttpRequest();
-    rawFile.open("GET", "../jeep.txt", false);
-    rawFile.onreadystatechange = function ()
-    {
+    const routes = getFileData("../jeep.txt").split("\n");
+    const places = getFileData("../places.txt").split("\n");
+
+    populateOptions(places);
+
+});
+
+function populateOptions(places) {
+    places.forEach(function(place) {
+        const option = document.createElement("option");
+        option.text = place;
+        option.value = place;
+        document.getElementById("location").add(option);
+        document.getElementById("destination").add(option);
+    });
+}
+
+
+function getFileData(address) {
+    const rawFile = new XMLHttpRequest();
+    let allText;
+    rawFile.open("GET", address, false);
+    rawFile.onreadystatechange = function () {
         if(rawFile.readyState === 4) {
-            if(rawFile.status === 200 || rawFile.status == 0) {
-                var allText = rawFile.responseText;
+            if(rawFile.status === 200 || rawFile.status === 0) {
+                allText = rawFile.responseText;
             }
-            var data = allText.split("\n");
-            for(var i = 0; i < data.length; i++) {
-                var subdata = data[i].split(":");
-                for(var j = 0; j < subdata.length; j++ ) {
-                    $("#data_here").a
-                }
-            }
+            console.log(allText);
         }
     }
     rawFile.send(null);
-})
+    return allText;
+}
