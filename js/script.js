@@ -16,7 +16,7 @@ $(document).ready(function () {
             for(var i = 0; i < data.length; i++) {
                 var subdata = data[i].split(":");
                 for(var j = 0; j < subdata.length; j++ ) {
-                    document.getElementById("data_here").append(subdata[j]);
+                    $("#data_here").a
                 }
             }
         }
