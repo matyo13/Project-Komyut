@@ -2,6 +2,10 @@
 <html lang="en">
 <head>
     <title>PROJECT KOMYUT</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+    <link rel="manifest" href="images/site.webmanifest">
     <link rel="stylesheet" href="css/stylesheet.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <script type="text/javascript" src="js/jquery-3.6.0.min.js"></script>
@@ -11,16 +15,24 @@
     <meta charset="UTF-8">
 </head>
 <body>
-    <select name="locations" id="location">
-        <option selected="true" disabled="disabled" value="0">Choose Location</option>
-    </select>
+<div id="main-container" class="text-center alight-middle d-flex flex-column min-vh-100 justify-content-center align-items-center">
+    <div class="form-floating">
+        <select name="locations" id="location" class="form-select form-select-lg" aria-label="Default select example">
+            <option selected="true" disabled="disabled" value="0">Choose Location</option>
+        </select>
+        <label>Location</label>
+    </div>
+    <div class="form-floating">
+        <select name="destinations" id="destination" class="form-select form-select-lg" aria-label="Default select example">
+            <option selected="true" disabled="disabled" value="0">Choose Destination</option>
+        </select>
+        <label>Destination</label>
+    </div>
 
-    <select name="destinations" id="destination">
-        <option selected="true" disabled="disabled" value="0">Choose Destination</option>
-    </select>
+    <button id="submit" disabled="disabled" class="btn btn-primary">Look for Routes</button>
+    <p id="destination_container">Destination here</p>
+    <p id="data_here"></p>
+</div>
 
-    <button id="submit" disabled="disabled">Okay</button>
-<p id="destination_container">Destination here</p>
-<p id="data_here"></p>
 </body>
 </html>
