@@ -111,7 +111,6 @@ function populateOptions(places) {
     }
 }
 
-
 function getFileData(address) {
     const rawFile = new XMLHttpRequest();
     let allText;
