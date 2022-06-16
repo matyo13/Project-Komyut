@@ -9,3 +9,6 @@ THIS IS THE REPOSITORY OF PROJECT KOMYUT
 
 # Final Look!
 ![image](https://user-images.githubusercontent.com/107268879/174057855-091439c8-5100-4972-82fb-ae6f57e7f734.png)
+
+# Example of input and output
+![image](https://user-images.githubusercontent.com/107268879/174058007-64b5e4dd-acf8-44c4-978e-ab72ed677dfc.png)
