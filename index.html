@@ -15,23 +15,44 @@
     <meta charset="UTF-8">
 </head>
 <body>
-<div id="main-container" class="text-center alight-middle d-flex flex-column min-vh-100 justify-content-center align-items-center">
+<div class="jumbotron jumbotron-fluid">
+    <div class="container">
+        <h1 class="display-4">Welcome to Project-Komyut</h1>
+        <p class="lead">This is a tool that helps you in commuting adventures.</p>
+    </div>
+</div>
+<div id="main-container" class="container-fluid alight-middle d-flex flex-column min-vh-100 justify-content-center align-items-center">
     <div class="form-floating">
-        <select name="locations" id="location" class="form-select form-select-lg" aria-label="Default select example">
+        <select name="locations" id="location" class="form-select form-select-sm">
             <option selected="true" disabled="disabled" value="0">Choose Location</option>
         </select>
         <label>Location</label>
     </div>
     <div class="form-floating">
-        <select name="destinations" id="destination" class="form-select form-select-lg" aria-label="Default select example">
+        <select name="destinations" id="destination" class="form-select form-select-sm">
             <option selected="true" disabled="disabled" value="0">Choose Destination</option>
         </select>
         <label>Destination</label>
     </div>
 
-    <button id="submit" disabled="disabled" class="btn btn-primary">Look for Routes</button>
-    <p id="destination_container">Destination here</p>
-    <p id="data_here"></p>
+    <button id="submit" disabled="disabled" class="btn btn-outline-dark" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">Look for Routes</button>
+    <div class="card-group">
+        <div class="card bg-light mb-3" style="max-width: 18rem;">
+            <div class="card-header">Header</div>
+            <div class="card-body">
+                <h5 class="card-title">Success card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+        </div>
+        <div class="card bg-light mb-3" style="max-width: 18rem;">
+            <div class="card-header">Header</div>
+            <div class="card-body">
+                <h5 class="card-title">Success card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+        </div>
+    </div>
+
 </div>
 
 </body>
