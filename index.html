@@ -5,23 +5,19 @@
     <link rel="stylesheet" href="css/stylesheet.css">
     <script type="text/javascript" src="js/jquery-3.6.0.min.js"></script>
     <script type="text/javascript" src="js/script.js"></script>
+    <script type="text/javascript" src="js/linked-list.js"></script>
     <meta charset="UTF-8">
 </head>
 <body>
-<form id="getDistance">
-
-    <label for="location">Choose a location:</label>
-    <select name="places" id="location">
-        <option selected="true" disabled="disabled">Choose Location</option>
+    <select name="locations" id="location">
+        <option selected="true" disabled="disabled" value="0">Choose Location</option>
     </select>
 
-    <label for="destination">Choose a destination:</label>
-    <select name="places" id="destination">
-        <option selected="true" disabled="disabled">Choose Destination</option>
+    <select name="destinations" id="destination">
+        <option selected="true" disabled="disabled" value="0">Choose Destination</option>
     </select>
 
-    <input type="submit" name="SUBMIT" id="submit">
-</form>
+    <button id="submit" disabled="disabled">Okay</button>
 <p id="destination_container">Destination here</p>
 <p id="data_here"></p>
 </body>
