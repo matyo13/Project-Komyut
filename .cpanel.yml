@@ -1,4 +1,4 @@
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/nhfksqed/public_html/
+    - export DEPLOYPATH=/home/nhfksqed/public_html/project-komyut
     - /bin/cp -R * $DEPLOYPATH
