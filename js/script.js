@@ -1,3 +1,8 @@
+$(window).on("load", function() {
+    $('#loading').fadeOut(1000);
+    $('#main-container').addClass("d-flex").fadeIn(1000);
+});
+
 jQuery(function ($) {
     const routes = populateRoutes();
     const button = $("#submit");
@@ -20,10 +25,16 @@ jQuery(function ($) {
 });
 
 function displayRoutes(possible_routes) {
+    $("#card-group").text("");
     possible_routes.forEach(function(route) {
-        $("#data_here").append(
-            "Route " + route[0] + " for " + route[1] + " meters" + " from " + route[2] + " to " + route[3] +
-            "<br>");
+        $("#card-group").append("" +
+            "<div class=\"card bg-light mb-3\" style=\"max-width: 18rem;\">\n" +
+            "            <div class=\"card-header\" id=\"jeep-code\"><h1>" + route[0]+ "</h1></div>\n" +
+            "            <div class=\"card-body\">\n" +
+            "                <h5 class=\"card-title\"> Ride from " + route[2] + " to " + route[3] + "</h5>\n" +
+            "                <p class=\"card-text\"> Around " + route[1] + " meters of ride.</p>\n" +
+            "            </div>\n" +
+            "        </div>");
     });
 }
 
