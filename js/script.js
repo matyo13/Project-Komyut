@@ -5,10 +5,11 @@ jQuery(function ($) {
 
     button.attr("disabled", "disabled")
     button.on("click", function () {
+        possible_routes = [];
         let location = $('#location').find(":selected").val();
         let destination = $('#destination').find(":selected").val();
-        possible_routes.push(getRoutes(routes, location, destination));
-        console.log(possible_routes);
+        possible_routes = getRoutes(routes, location, destination);
+        displayRoutes(possible_routes);
     });
 
     $("#location, #destination").on("change", function () {
@@ -18,15 +19,23 @@ jQuery(function ($) {
     });
 });
 
+function displayRoutes(possible_routes) {
+    possible_routes.forEach(function(route) {
+        $("#data_here").append(
+            "Route " + route[0] + " for " + route[1] + " meters" + " from " + route[2] + " to " + route[3] +
+            "<br>");
+    });
+}
+
 function getRoutes(routes, location, destination) {
     let distance = 0;
     let new_route = [];
     routes.forEach(function(route) {
-        new_route = [];
+        let temp = [];
         distance = 0;
         let startCounting = false;
         let current = route[1].head;
-        new_route.push(route[0]);
+        temp.push(route[0]);
         while(current.next != null) {
             if(location === current.location) {
                 startCounting = true;
@@ -57,8 +66,8 @@ function getRoutes(routes, location, destination) {
                 current = current.next;
             }
         }
-        new_route.push(distance, location, destination);
-        console.log(new_route);
+        temp.push(distance, location, destination);
+        new_route.push(temp);
     });
     return new_route;
 }
