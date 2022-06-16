@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <script type="text/javascript" src="js/jquery-3.6.0.min.js"></script>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/1e1f266dfa.js" crossorigin="anonymous"></script>
     <script type="text/javascript" src="js/script.js"></script>
     <script type="text/javascript" src="js/linked-list.js"></script>
     <meta charset="UTF-8">
@@ -19,7 +20,7 @@
     <div id="loading" class="spinner-border" style="width: 6rem; height: 6rem;" role="status">
     </div>
 </div>
-<div style="display: none;" id="main-container" class="container-fluid alight-middle flex-column min-vh-100 justify-content-center align-items-center">
+<div style="display: none;" id="main-container" class="shadow-lg w-75 h-75 p-2 mt-lg-5 border border-light rounded container-fluid flex-column align-items-center">
     <div class="jumbotron jumbotron-fluid text-center">
         <div class="container">
             <h1 class="display-4">Welcome to Project-Komyut</h1>
@@ -27,19 +28,19 @@
         </div>
     </div>
     <div class="form-floating">
-        <select name="locations" id="location" class="form-select form-select-sm">
+        <select name="locations" id="location" class="m-1 form-select form-select-sm">
             <option selected="true" disabled="disabled" value="0">Choose Location</option>
         </select>
         <label>Location</label>
     </div>
     <div class="form-floating">
-        <select name="destinations" id="destination" class="form-select form-select-sm">
+        <select name="destinations" id="destination" class="m-1 form-select form-select-sm">
             <option selected="true" disabled="disabled" value="0">Choose Destination</option>
         </select>
         <label>Destination</label>
     </div>
 
-    <button id="submit" disabled="disabled" class="btn btn-outline-dark" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">Look for Routes</button>
+    <button id="submit" disabled="disabled" class="m-2 fa-solid fa-circle-check btn btn-outline-dark" type="button"></button>
     <div id="card-group" class="card-group">
     </div>
 </div>
