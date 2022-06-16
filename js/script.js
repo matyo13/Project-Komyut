@@ -26,16 +26,45 @@ jQuery(function ($) {
 
 function displayRoutes(possible_routes) {
     $("#card-group").text("");
-    possible_routes.forEach(function(route) {
-        if(route[1] > 0) {
-            $("#card-group").append("" +
-                "<div class=\"card bg-light mb-3\" style=\"max-width: 18rem;\">\n" +
-                "            <div class=\"card-header\" id=\"jeep-code\"><h1>" + route[0]+ "</h1></div>\n" +
-                "            <div class=\"card-body\">\n" +
-                "                <h5 class=\"card-title\"> Ride from " + route[2] + " to " + route[3] + "</h5>\n" +
-                "                <p class=\"card-text\"> Around " + route[1] + " meters of ride.</p>\n" +
-                "            </div>\n" +
-                "        </div>");
+    let smallest = 0;
+    let smallestIndex = 0;
+    const card_group = $("#card-group");
+    possible_routes.forEach(function(route, index) {
+        if(smallest && route[1]) {
+            if(smallest > route[1]) {
+                $("#" + smallestIndex).removeClass("bg-info text-white").addClass("border-danger");
+                card_group.append("" +
+                    "<div id=\"" + index + "\" class=\"card text-white bg-success mb-3\" style=\"max-width: 18rem;\">\n" +
+                    "            <div class=\"jumbotron card-header\" id=\"jeep-code\"><h1 class='display-4'>" + route[0]+ "</h1></div>\n" +
+                    "            <div class=\"card-body\">\n" +
+                    "                <h5 class=\"card-title\"> Ride from " + route[2] + " to " + route[3] + "</h5>\n" +
+                    "                <p class=\"card-text\"> Around " + route[1] + " meters of ride.</p>\n" +
+                    "            </div>\n" +
+                    "        </div>");
+                smallest = route[1];
+                smallestIndex = index;
+            } else {
+                card_group.append("" +
+                    "<div id=\"" + index + "\" class=\"card border-danger mb-3\" style=\"max-width: 18rem;\">\n" +
+                    "            <div class=\"jumbotron card-header\" id=\"jeep-code\"><h1 class='display-4'>" + route[0]+ "</h1></div>\n" +
+                    "            <div class=\"card-body text-danger\">\n" +
+                    "                <h5 class=\"card-title\"> Ride from " + route[2] + " to " + route[3] + "</h5>\n" +
+                    "                <p class=\"card-text\"> Around " + route[1] + " meters of ride.</p>\n" +
+                    "            </div>\n" +
+                    "        </div>");
+            }
+        } else {
+            if(route[1] > 0) {
+                $("#card-group").append("" +
+                    "<div id=\"" + index + "\" class=\"card text-white bg-success mb-3\" style=\"max-width: 18rem;\">\n" +
+                    "            <div class=\"jumbotron card-header\" id=\"jeep-code\"><h1 class='display-4'>" + route[0]+ "</h1></div>\n" +
+                    "            <div class=\"card-body\">\n" +
+                    "                <h5 class=\"card-title\"> Ride from " + route[2] + " to " + route[3] + "</h5>\n" +
+                    "                <p class=\"card-text\"> Around " + route[1] + " meters of ride.</p>\n" +
+                    "            </div>\n" +
+                    "        </div>");
+                smallest = route[1]
+            };
         }
     });
 }
