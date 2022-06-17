@@ -5,10 +5,10 @@ E.Mall
 L. Kilat St.
 Colon St.
 Metro Gaisano (Colon)
-Collonade Supermarket
+Colonnade Supermarket
 University of the Visayas
 Gaisano Main
-Brgy. Parian
+Colon Obelisk
 Zulueta St.
 MJ. Cuenco Ave.
 NSO
@@ -17,16 +17,74 @@ A. Soriano Ave.
 SM City Cebu
 SM Hypermarket
 North Bus Terminal
+Parkmall
 White Gold Club
 Queen City Memorial Garden
 White Gold House
 T. Padilla St.
-CITU
+CTU
 V. Gullas St.
 Manalili St.
 Legaspi St.
-Collonade Supermarket
 Pelaez St.
 Sancianko St.
 Sogo Hotel
 GV Tower Hotel
+Cebu City Medical Center
+Cebu South Bus Terminal
+Cebu Metropolitan Cathedral
+F. Urdanet St.
+Legaspi Ext.
+Plaza Independencia
+Pier 1
+C. Arellano Blvd.
+Pier 2
+V. Sotto St.
+Sergio Osmena Blvd.
+Pier 4
+Robinson Mall
+Gen. Maxilom Ave. Ext.
+Cebu City Health Center
+Bueareau of Quarantin
+Cebu Skin Clinic
+Imus Ave.
+Museo Sugbo
+CPILS
+A. Bonifacio St.
+Sikatuna St.
+JC. Zamora St.
+University of Cebu
+Panganiban St.
+Carbon Public Market
+MC. Briones St.
+Senior Citizens Plaza
+Cebu City Hall
+Basilica del Sto. Nino
+La Nueva Supermarket
+Prince warehouse (city Hall)
+Lapulapu St.
+MCWD
+DFA
+COMELEC
+DTI
+Urdaneta St.
+Commission on Audit
+Carreta Cemetery
+Hipodromo
+The Persimmon
+Mabolo Church
+Pope John Paull ll Ave.
+Carmelite Monastery
+PLDT
+F. Cabahug St.
+Castle Peak Hotel
+Sarrosa International Hotel
+Fooda (Kasambagan)
+Citi Park Hotel
+Rainforest Park
+Synergis Building
+Sykes Asia (Cebu)
+Panagdait
+Cityscape Hotel
+MJ. Cuenco Ext
+Progreso St.
