@@ -79,7 +79,7 @@ function displayRoutes(possible_routes) {
             "            <div class=\"jumbotron card-header\" id=\"jeep-code\"><h1 class='display-4'>Sorry</h1></div>\n" +
             "            <div class=\"card-body\">\n" +
             "                <h5 class=\"card-title\">We couldn't find any route for you.</h5>\n" +
-            "                <p class=\"card-text\">Don't worry, Please choose another locations.</p>\n" +
+            "                <p class=\"card-text\">Please choose another locations.</p>\n" +
             "            </div>\n" +
             "        </div>");
     }
@@ -133,7 +133,7 @@ function getRoutes(routes, location, destination) {
 }
 
 function populateRoutes() {
-    const routes = getFileData("../jeep.txt").split("\n");
+    const routes = getFileData("../jeep-codes.txt").split("\n");
     const places = getFileData("../places.txt").split("\n");
 
     populateOptions(places);
