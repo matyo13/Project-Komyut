@@ -7,8 +7,8 @@ THIS IS THE REPOSITORY OF PROJECT KOMYUT
 # Added Bootstrap Framework
 ![image](https://user-images.githubusercontent.com/107268879/173990188-7bb0344e-b5c1-47d5-9591-211c10788281.png)
 
-# Final Look!
-![image](https://user-images.githubusercontent.com/107268879/174057855-091439c8-5100-4972-82fb-ae6f57e7f734.png)
-
-# Example of input and output
-![image](https://user-images.githubusercontent.com/107268879/174058007-64b5e4dd-acf8-44c4-978e-ab72ed677dfc.png)
+#Final look, Complete Logic, and Final UI design
+![image](https://user-images.githubusercontent.com/107268879/174245144-1b53c170-a3d8-4879-9420-2c7a7d0bd486.png)
+![image](https://user-images.githubusercontent.com/107268879/174245258-fc6ec6f3-134c-4935-9fd7-9f7e129e119b.png)
+![image](https://user-images.githubusercontent.com/107268879/174247055-14183b80-f375-4137-8a6e-04faa4bce5ee.png)
+![image](https://user-images.githubusercontent.com/107268879/174247142-f4af43bc-288d-4081-8388-b43c727dc456.png)
