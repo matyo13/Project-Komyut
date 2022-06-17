@@ -1,148 +1,145 @@
-Urgello St.
-Sacred Heart Hospital
-South Western University
-E.Mall
-L. Kilat St.
-Colon St.
-Metro Gaisano (Colon)
-Colonnade Supermarket
-University of the Visayas
-Gaisano Main
-Colon Obelisk
-Zulueta St.
-MJ. Cuenco Ave.
-NSO
-General Maxilom Ave.
+A. Bonifacio St.
 A. Soriano Ave.
+Abellana Sports Complex
+B. Aranas St
+Basilica del Sto. Nino
+Bayanihan Mini mart
+Bueareau of Quarantin
+C. Arellano Blvd.
+C. Padilla St.
+COMELEC
+CPILS
+CTU
+Calamba Cemetery
+Carbon Public Market
+Carlock St.
+Carmelite Monastery
+Carreta Cemetery
+Castle Peak Hotel
+Cebu City Hall
+Cebu City Health Center
+Cebu City Medical Center
+Cebu Doctors University
+Cebu Metropolitan Cathedral
+Cebu Normal University
+Cebu Skin Clinic
+Cebu South Bus Terminal
+Central Bank of the Philippines
+Citi Park Hotel
+Cityscape Hotel
+Colon Obelisk
+Colon St.
+Colonnade Supermarket
+Commission on Audit
+Crown Regency Hotel
+DFA
+DTI
+Don Carlos Gothong HS
+Don Vicente Rama High School
+E.Mall
+Escario Central Mall
+Escario St.
+F. Cabahug St.
+F. Calderon St.
+F. Urdanet St.
+Fooda (Kasambagan)
+Fooda Guadalupe
+Fuente Osmena Circle
+GV Tower Hotel
+Gaisano Main
+Gen. Maxilom Ave. Ext.
+General Maxilom Ave.
+Golden peak hotel
+Guadalupe Church
+Harolds Hotel
+Hipodromo
+Hotel de Mercedez
+Imus Ave.
+JC. Zamora St.
+Jai Alai
+Jy Square Mall 
+L. Kilat St.
+La Nueva Supermarket
+Lapulapu St.
+Legaspi Ext.
+Legaspi St.
+Lucky 7 Supermart
+MC. Briones St.
+MCWD
+MJ. Cuenco Ave.
+MJ. Cuenco Ext
+Mabolo Church
+Magallanes St
+Mambling Flyover 
+Manalili St.
+Metro Gaisano (Colon)
+Museo Sugbo
+N. Bacalso Ave.
+NSO
+North Bus Terminal
+P. Lopez St.
+PLDT
+PRC
+Panagdait
+Panganiban St.
+Parkmall
+Pasil Fish Market
+Pelaez St.
+Philhealth
+Pier 1
+Pier 2
+Pier 4
+Plaza Independencia
+Pope John Paull ll Ave.
+Prince warehouse (city Hall)
+Progreso St.
+Queen City Memorial Garden
+Queensland Q12
+Quiot
+R. Padilla St.
+Rainforest Park
+Robinson Mall
+Robinsons Fuente
 SM City Cebu
 SM Hypermarket
-North Bus Terminal
-Parkmall
-White Gold Club
-Queen City Memorial Garden
-White Gold House
-T. Padilla St.
-CTU
-V. Gullas St.
-Manalili St.
-Legaspi St.
-Pelaez St.
-Sancianko St.
-Sogo Hotel
-GV Tower Hotel
-Cebu City Medical Center
-Cebu South Bus Terminal
-Cebu Metropolitan Cathedral
-F. Urdanet St.
-Legaspi Ext.
-Plaza Independencia
-Pier 1
-C. Arellano Blvd.
-Pier 2
-V. Sotto St.
-Sergio Osmena Blvd.
-Pier 4
-Robinson Mall
-Gen. Maxilom Ave. Ext.
-Cebu City Health Center
-Bueareau of Quarantin
-Cebu Skin Clinic
-Imus Ave.
-Museo Sugbo
-CPILS
-A. Bonifacio St.
-Sikatuna St.
-JC. Zamora St.
-University of Cebu
-Panganiban St.
-Carbon Public Market
-MC. Briones St.
-Senior Citizens Plaza
-Cebu City Hall
-Basilica del Sto. Nino
-La Nueva Supermarket
-Prince warehouse (city Hall)
-Lapulapu St.
-MCWD
-DFA
-COMELEC
-DTI
-Urdaneta St.
-Commission on Audit
-Carreta Cemetery
-Hipodromo
-The Persimmon
-Mabolo Church
-Pope John Paull ll Ave.
-Carmelite Monastery
-PLDT
-F. Cabahug St.
-Castle Peak Hotel
-Sarrosa International Hotel
-Fooda (Kasambagan)
-Citi Park Hotel
-Rainforest Park
-Synergis Building
-Sykes Asia (Cebu)
-Panagdait
-Cityscape Hotel
-MJ. Cuenco Ext
-Progreso St.
-Hotel de Mercedez
-University of San Carlos Main
-Sto. Rosario Church 
-Central Bank of the Philippines
-Abellana Sports Complex
-Cebu Normal University
-Crown Regency Hotel
-Robinsons Fuente
-Fuente Osmena Circle
-Cebu Doctors University
-Escario Central Mall
-Golden peak hotel
-Philhealth
-Tonros Apartelle
-Harolds Hotel
-UP Cebu
-Jy Square Mall 
-Salinas Drive
-Stephenson St.
-Escario St.
-P. Lopez St.
-USJR Main
-Magallanes St
-F. Calderon St.
-R. Padilla St.
-Salazar Colleges
-N. Bacalso Ave.
-V. Rama Ave.
-USC (girls HS)
-Queensland Q12
-Calamba Cemetery
-Securities and Exchange Commission
-PRC
-Fooda Guadalupe
-Guadalupe Church
-Tres De Abril St.
-Carlock St. 
-San Nicolas Elementary School 
-B. Aranas St
-Taboan Public Market
-Pasil Fish Market
-St. Mary's Academy of San Nicolas
-Don Carlos Gothong HS
-Jai Alai
-Mambling Flyover 
-Shopwise
-Bayanihan Mini mart
 Sabellano St.
-Quiot
-Southwestern University Basak
-Don Vicente Rama High School
-C. Padilla St.
-Carlock St.
-Spoliarium St.
+Sacred Heart Hospital
+Salazar Colleges
+Salinas Drive
+San Nicolas Elementary School 
 San Nicolas Parish Church
-Basilica del Sto. Nino
-Lucky 7 Supermart
-Cebu Metropolitan Cathedral
+Sancianko St.
+Sarrosa International Hotel
+Securities and Exchange Commission
+Senior Citizens Plaza
+Sergio Osmena Blvd.
+Shopwise
+Sikatuna St.
+Sogo Hotel
+South Western University
+Southwestern University Basak
+Spoliarium St.
+St. Mary's Academy of San Nicolas
+Stephenson St.
+Sto. Rosario Church 
+Sykes Asia (Cebu)
+Synergis Building
+T. Padilla St.
+Taboan Public Market
+The Persimmon
+Tonros Apartelle
+Tres De Abril St.
+UP Cebu
+USC (girls HS)
+USJR Main
+University of Cebu
+University of San Carlos Main
+University of the Visayas
+Urdaneta St.
+Urgello St.
+V. Gullas St.
+V. Rama Ave.
+V. Sotto St.
+White Gold Club
+White Gold House
+Zulueta St.
