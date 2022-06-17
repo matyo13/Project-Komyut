@@ -25,15 +25,16 @@ jQuery(function ($) {
 });
 
 function displayRoutes(possible_routes) {
-    console.log("Possible Routes " + possible_routes);
     let smallest = 0;
     let smallestIndex = 0;
+    let noRouteFound = true;
     const card_group = $("#card-group");
     card_group.text("");
     possible_routes.forEach(function(route, index) {
+        console.log("Smallest Index is " + smallestIndex);
         if(smallest && route[1]) {
             if(smallest > route[1]) {
-                $("#" + smallestIndex).removeClass("bg-info text-white").addClass("border-danger");
+                $("#" + smallestIndex).removeClass("bg-success text-white").addClass("border-danger text-danger");
                 card_group.append("" +
                     "<div id=\"" + index + "\" class=\"card text-white bg-success mb-3\" style=\"max-width: 18rem;\">\n" +
                     "            <div class=\"jumbotron card-header\" id=\"jeep-code\"><h1 class='display-4'>" + route[0]+ "</h1></div>\n" +
@@ -44,6 +45,7 @@ function displayRoutes(possible_routes) {
                     "        </div>");
                 smallest = route[1];
                 smallestIndex = index;
+                noRouteFound = false;
             } else {
                 card_group.append("" +
                     "<div id=\"" + index + "\" class=\"card border-danger mb-3\" style=\"max-width: 18rem;\">\n" +
@@ -53,6 +55,7 @@ function displayRoutes(possible_routes) {
                     "                <p class=\"card-text\"> Around " + route[1] + " meters of ride.</p>\n" +
                     "            </div>\n" +
                     "        </div>");
+                noRouteFound = false;
             }
         } else {
             if(route[1] > 0) {
@@ -64,10 +67,22 @@ function displayRoutes(possible_routes) {
                     "                <p class=\"card-text\"> Around " + route[1] + " meters of ride.</p>\n" +
                     "            </div>\n" +
                     "        </div>");
-                smallest = route[1]
+                smallest = route[1];
+                smallestIndex = index;
+                noRouteFound = false;
             }
         }
     });
+    if(noRouteFound) {
+        $("#card-group").append("" +
+            "<div id=\"noroute\" class=\"card text-danger border-light mb-3\" style=\"max-width: 18rem;\">\n" +
+            "            <div class=\"jumbotron card-header\" id=\"jeep-code\"><h1 class='display-4'>Sorry</h1></div>\n" +
+            "            <div class=\"card-body\">\n" +
+            "                <h5 class=\"card-title\">We couldn't find any route for you.</h5>\n" +
+            "                <p class=\"card-text\">Don't worry, Please choose another locations.</p>\n" +
+            "            </div>\n" +
+            "        </div>");
+    }
 }
 
 function getRoutes(routes, location, destination) {
@@ -109,8 +124,10 @@ function getRoutes(routes, location, destination) {
                 current = current.next;
             }
         }
-        temp.push(distance, location, destination);
-        new_route.push(temp);
+        if(distance) {
+            temp.push(distance, location, destination);
+            new_route.push(temp);
+        }
     });
     return new_route;
 }
