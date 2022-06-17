@@ -124,7 +124,7 @@ function getRoutes(routes, location, destination) {
                 current = current.next;
             }
         }
-        if(distance) {
+        if(distance && current.next !== null) {
             temp.push(distance, location, destination);
             new_route.push(temp);
         }
