@@ -12,6 +12,19 @@ This mini utitlity is your friend in your commuting adventures.
 ![GitHub repo size](https://img.shields.io/github/repo-size/matyo13/project-komyut)
 ![Lines of code](https://img.shields.io/tokei/lines/github/matyo13/project-komyut)
 
+## Authors
+[@TheresseF](https://github.com/TheresseF)
+[@KeeentX](https://github.com/KeeentX)
+[@matyo13](https://github.com/matyo13)
+
+## Tech Stack
+
+**Web:** HTML, CSS, JavaScript, JQuery, Bootstrap
+
+## License
+
+[Creative Commons Zero 1.0](https://choosealicense.com/licenses/cc0-1.0/)
+
 ## Acknowledgements
 - [JQuery](https://jquery.com)
 - [Bootstrap Docs](https://getbootstrap.com/docs/5.2/getting-started/introduction/)
@@ -21,13 +34,15 @@ This mini utitlity is your friend in your commuting adventures.
 
 https://www.project-komyut.kpcatipay.com
 
-## Screenshots
-![image](https://user-images.githubusercontent.com/107268879/174252929-0aee75f7-850e-4a52-b25e-778c094b03bf.png)
-![image](https://user-images.githubusercontent.com/107268879/174253070-7c3e0b8a-a54a-448b-82be-68b37dcc6fcf.png)
-![image](https://user-images.githubusercontent.com/107268879/174253104-da9f5c29-3838-4595-9beb-ba5c685ed1c2.png)
-![image](https://user-images.githubusercontent.com/107268879/174253148-c78d51e7-c2c1-4d24-9651-ab4251a1594b.png)
+## Feedback
 
-## Authors
-[@TheresseF](https://github.com/TheresseF)
-[@KeeentX](https://github.com/KeeentX)
-[@matyo13](https://github.com/matyo13)
+If you have any feedback, please reach out to us at
+feedback@project-komyut.kpcatipay.com
+
+## Screenshots
+![1](https://user-images.githubusercontent.com/107268879/174255123-aa72b208-a9f5-47d0-8f2d-cd3f222984b8.png)
+![2](https://user-images.githubusercontent.com/107268879/174255503-85426f6e-3ad1-4cf3-9323-6efe62b04447.png)
+![3](https://user-images.githubusercontent.com/107268879/174255744-5d339be7-9a5d-4db6-849c-2e0c2ddb2b5a.png)
+![4](https://user-images.githubusercontent.com/107268879/174255898-52b58f4e-97ad-4752-938a-25cb7dae0369.png)
+
+
