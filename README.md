@@ -1,14 +1,33 @@
+
 # Project-Komyut
-THIS IS THE REPOSITORY OF PROJECT KOMYUT
 
-# Initial Look
-![image](https://user-images.githubusercontent.com/107268879/173717959-88a75cde-020d-4d92-8e77-db593218bd0f.png)
+Are you lost? Or commuting is not your thing?\
+Or this is your first time visiting Cebu City\
+This mini utitlity is your friend in your commuting adventures.
 
-# Added Bootstrap Framework
-![image](https://user-images.githubusercontent.com/107268879/173990188-7bb0344e-b5c1-47d5-9591-211c10788281.png)
+[![GitHub license](https://img.shields.io/github/license/matyo13/Project-Komyut)](https://github.com/matyo13/Project-Komyut/blob/main/LICENSE)
+![GitHub all releases](https://img.shields.io/github/downloads/matyo13/project-komyut/total)
+[![GitHub forks](https://img.shields.io/github/forks/matyo13/Project-Komyut)](https://github.com/matyo13/Project-Komyut/network)
+[![GitHub stars](https://img.shields.io/github/stars/matyo13/Project-Komyut)](https://github.com/matyo13/Project-Komyut/stargazers)
+![GitHub repo size](https://img.shields.io/github/repo-size/matyo13/project-komyut)
+![Lines of code](https://img.shields.io/tokei/lines/github/matyo13/project-komyut)
 
-#Final look, Complete Logic, and Final UI design
-![image](https://user-images.githubusercontent.com/107268879/174245144-1b53c170-a3d8-4879-9420-2c7a7d0bd486.png)
-![image](https://user-images.githubusercontent.com/107268879/174245258-fc6ec6f3-134c-4935-9fd7-9f7e129e119b.png)
-![image](https://user-images.githubusercontent.com/107268879/174247055-14183b80-f375-4137-8a6e-04faa4bce5ee.png)
-![image](https://user-images.githubusercontent.com/107268879/174247142-f4af43bc-288d-4081-8388-b43c727dc456.png)
+## Acknowledgements
+- [JQuery](https://jquery.com)
+- [Bootstrap Docs](https://getbootstrap.com/docs/5.2/getting-started/introduction/)
+- [W3Schools](https://www.w3schools.com)
+
+## Demo
+
+https://www.project-komyut.kpcatipay.com
+
+## Screenshots
+![image](https://user-images.githubusercontent.com/107268879/174252929-0aee75f7-850e-4a52-b25e-778c094b03bf.png)
+![image](https://user-images.githubusercontent.com/107268879/174253070-7c3e0b8a-a54a-448b-82be-68b37dcc6fcf.png)
+![image](https://user-images.githubusercontent.com/107268879/174253104-da9f5c29-3838-4595-9beb-ba5c685ed1c2.png)
+![image](https://user-images.githubusercontent.com/107268879/174253148-c78d51e7-c2c1-4d24-9651-ab4251a1594b.png)
+
+## Authors
+[@TheresseF](https://github.com/TheresseF)
+[@KeeentX](https://github.com/KeeentX)
+[@matyo13](https://github.com/matyo13)
