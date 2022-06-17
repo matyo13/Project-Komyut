@@ -25,10 +25,11 @@ jQuery(function ($) {
 });
 
 function displayRoutes(possible_routes) {
-    $("#card-group").text("");
+    console.log("Possible Routes " + possible_routes);
     let smallest = 0;
     let smallestIndex = 0;
     const card_group = $("#card-group");
+    card_group.text("");
     possible_routes.forEach(function(route, index) {
         if(smallest && route[1]) {
             if(smallest > route[1]) {
@@ -64,7 +65,7 @@ function displayRoutes(possible_routes) {
                     "            </div>\n" +
                     "        </div>");
                 smallest = route[1]
-            };
+            }
         }
     });
 }
